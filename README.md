@@ -12,7 +12,7 @@ Amazon, Walmart, Target, Best Buy, Woot, eBay, Costco, Home Depot, Newegg, Wayfa
 1. Download and extract the ZIP
 2. Go to `chrome://extensions/`
 3. Enable Developer Mode
-4. Click "Load unpacked" and select the `extension` folder
+4. Click "Load unpacked" and select the `extension` folder inside the extracted ZIP
 
 ## Version
 Last updated: 2026-05-20
