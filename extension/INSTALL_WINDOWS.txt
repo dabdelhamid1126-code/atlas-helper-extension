@@ -1,39 +1,8 @@
 ATLAS HELPER EXTENSION - WINDOWS INSTALLATION GUIDE
 
-STEP 1: DOWNLOAD
-- Click the download button on the Atlas Helper page
-- Save the ZIP file to your Downloads folder
-
-STEP 2: EXTRACT
-- Right-click the ZIP file
-- Select "Extract All..."
-- Choose a location (e.g., Desktop)
-- Click "Extract"
-
-STEP 3: OPEN CHROME
-- Open Google Chrome browser
-- Go to: chrome://extensions/
-
-STEP 4: ENABLE DEVELOPER MODE
-- Look for "Developer mode" toggle in the top right
-- Click to enable it (toggle turns blue)
-
-STEP 5: LOAD EXTENSION
-- Click "Load unpacked" button (top left)
-- Navigate to the extracted folder
-- Select the folder and click "Select Folder"
-
-STEP 6: CONFIGURE
-- Click the Atlas Helper icon in Chrome toolbar
-- Enter your Atlas API URL and Bearer Token
-- Click "Connect"
-
-The extension is now ready! Visit any supported retailer's order page to import orders.
-
-SUPPORTED STORES:
-Amazon, Walmart, Target, Best Buy, Woot, eBay, Costco, Home Depot, Newegg, Wayfair, Etsy, Chewy
-
-TROUBLESHOOTING:
-- If icon doesn't appear, restart Chrome
-- If orders don't import, check your API credentials
-- For help, contact Atlas support
+1. Download the ZIP file
+2. Extract it
+3. Go to chrome://extensions/
+4. Enable Developer Mode
+5. Click "Load unpacked" and select the extracted folder
+6. Configure with your Atlas URL and token

@@ -28,29 +28,17 @@
   ],
   "host_permissions": [
     "https://amazon.com/*",
-    "https://www.amazon.com/*",
     "https://walmart.com/*",
-    "https://www.walmart.com/*",
     "https://target.com/*",
-    "https://www.target.com/*",
     "https://bestbuy.com/*",
-    "https://www.bestbuy.com/*",
     "https://woot.com/*",
-    "https://www.woot.com/*",
     "https://ebay.com/*",
-    "https://www.ebay.com/*",
     "https://costco.com/*",
-    "https://www.costco.com/*",
     "https://homedepot.com/*",
-    "https://www.homedepot.com/*",
     "https://newegg.com/*",
-    "https://www.newegg.com/*",
     "https://wayfair.com/*",
-    "https://www.wayfair.com/*",
     "https://etsy.com/*",
-    "https://www.etsy.com/*",
-    "https://chewy.com/*",
-    "https://www.chewy.com/*"
+    "https://chewy.com/*"
   ],
   "content_scripts": [
     {
