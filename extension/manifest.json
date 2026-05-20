@@ -1,0 +1,165 @@
+{
+  "manifest_version": 3,
+  "name": "Atlas Helper",
+  "version": "2.0.0",
+  "description": "Automatically import orders from 30+ retailers into Atlas Resell Hub",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://amazon.com/*",
+    "https://www.amazon.com/*",
+    "https://walmart.com/*",
+    "https://www.walmart.com/*",
+    "https://target.com/*",
+    "https://www.target.com/*",
+    "https://bestbuy.com/*",
+    "https://www.bestbuy.com/*",
+    "https://woot.com/*",
+    "https://www.woot.com/*",
+    "https://ebay.com/*",
+    "https://www.ebay.com/*",
+    "https://costco.com/*",
+    "https://www.costco.com/*",
+    "https://homedepot.com/*",
+    "https://www.homedepot.com/*",
+    "https://newegg.com/*",
+    "https://www.newegg.com/*",
+    "https://wayfair.com/*",
+    "https://www.wayfair.com/*",
+    "https://etsy.com/*",
+    "https://www.etsy.com/*",
+    "https://chewy.com/*",
+    "https://www.chewy.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://amazon.com/*",
+        "https://www.amazon.com/*"
+      ],
+      "js": [
+        "content_scripts/amazon.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://walmart.com/*",
+        "https://www.walmart.com/*"
+      ],
+      "js": [
+        "content_scripts/walmart.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://target.com/*",
+        "https://www.target.com/*"
+      ],
+      "js": [
+        "content_scripts/target.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://bestbuy.com/*",
+        "https://www.bestbuy.com/*"
+      ],
+      "js": [
+        "content_scripts/bestbuy.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://woot.com/*",
+        "https://www.woot.com/*"
+      ],
+      "js": [
+        "content_scripts/woot.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://ebay.com/*",
+        "https://www.ebay.com/*"
+      ],
+      "js": [
+        "content_scripts/ebay.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://costco.com/*",
+        "https://www.costco.com/*"
+      ],
+      "js": [
+        "content_scripts/costco.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://homedepot.com/*",
+        "https://www.homedepot.com/*"
+      ],
+      "js": [
+        "content_scripts/homedepot.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://newegg.com/*",
+        "https://www.newegg.com/*"
+      ],
+      "js": [
+        "content_scripts/newegg.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://wayfair.com/*",
+        "https://www.wayfair.com/*"
+      ],
+      "js": [
+        "content_scripts/wayfair.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://etsy.com/*",
+        "https://www.etsy.com/*"
+      ],
+      "js": [
+        "content_scripts/etsy.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://chewy.com/*",
+        "https://www.chewy.com/*"
+      ],
+      "js": [
+        "content_scripts/chewy.js"
+      ]
+    }
+  ]
+}
